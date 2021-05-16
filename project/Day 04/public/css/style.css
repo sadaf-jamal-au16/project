@@ -1,0 +1,29 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.required {
+    margin-left: 40%;
+    height: 390px;
+    position: relative;
+}
+
+.common {
+    width: 200px;
+}
+
+.submitbutton {
+    position: absolute;
+    bottom: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.bonus {
+    margin-left: 40%;
+    height: 390px;
+    position: relative;
+}

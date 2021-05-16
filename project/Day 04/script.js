@@ -1,0 +1,22 @@
+require('dotenv').config()
+const express = require('express')
+const app = express()
+const expHbs = require('express-handlebars')
+const city_router = require('./routes/city')
+const common_router = require('./routes/common')
+const country_router = require('./routes/country')
+const mysql = require('mysql2/promise')
+const {initDatabaseConnection} = require('./database connection/database')
+app.use(express.static('public'))
+
+
+app.use(express.urlencoded({extended:true}))
+app.engine('hbs', expHbs({extname:'hbs'}))
+app.set('view engine', 'hbs')
+app.use('', common_router)
+app.use('', country_router)
+app.use('', city_router)
+app.listen(3000, async () => {
+    console.log('Server started')
+    await initDatabaseConnection()
+})
