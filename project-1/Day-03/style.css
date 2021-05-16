@@ -1,0 +1,32 @@
+body{
+    background: linear-gradient(to right, #8e0e00, #1f1c18); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.container{
+    border: 5px;
+    border-radius: 30px;
+    border-color: black;
+    border-style: groove;
+    background-color: aquamarine;
+}
+
+.btn{
+    border-radius: 15px;
+    color: aliceblue;
+    transition: .3s;
+    background-color: crimson;
+    height: 50px;
+}
+.btn:hover{
+    background-color: rgb(202, 30, 245);
+    transform: scale(1.2);
+}
+#length{
+    width: 100px;
+}
+.button{
+    background-color: lightcoral;
+}
+.check{
+    width: 50px;
+}

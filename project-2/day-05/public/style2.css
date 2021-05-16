@@ -1,0 +1,21 @@
+body{
+    background:linear-gradient(to right,green,white,green) ;
+}
+
+.container{
+    margin-top: 6%;
+    background-image: url('https://wallup.net/wp-content/uploads/2016/01/87267-nature-ferns-leaves.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height:500px;
+    width:50%;
+    box-shadow: 5px 5px 5px;
+}
+.btn-success{
+    margin-top: 32%;
+    margin-left: 38%;
+}
+
+a{
+    text-decoration: none;
+}
